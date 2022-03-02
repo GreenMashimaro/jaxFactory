@@ -3,8 +3,7 @@ import { customFactory } from './jsxFactory'
 export function getTag () {
   return (
     <div>
-      zzn Hello
-      World
+      hello word
     </div>
   )
 }
