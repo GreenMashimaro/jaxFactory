@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2020",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": [
+      "es2020",
+      "dom"
+    ],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "jsx": "react",
+    "jsxFactory": "customFactory",
+    "module": "commonjs",
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+
+    /* Type Checking */
+    "strict": true
+  },
+  "include": [
+    "./src"
+  ]
+}
